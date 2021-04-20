@@ -2,6 +2,7 @@
 const upath = require('upath');
 const sh = require('shelljs');
 const renderPug = require('./render-pug');
+const fs = require('fs');
 
 const srcPath = upath.resolve(upath.dirname(__filename), '../src');
 

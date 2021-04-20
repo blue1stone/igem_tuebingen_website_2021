@@ -1,10 +1,16 @@
-// Override Bootstrap color system
+// Override Bootstrap color system & Define colors
 
-$yellow: #fed136;
+$dark-blue: #0A0C47;
+$dark-blue-light: #1B1D54;
+$fair-blue: #00C5DF;
+$light-yellow: #FAEC6B;
 
 // Override Bootstrap default state colors
 
-$primary: $yellow;
+$primary: $light-yellow;
+$info: $fair-blue;
+$dark: $dark-blue-light;
+$text-muted: #c4c4c4;
 
 // Override Bootstrap yiq lightness value
 
