@@ -15,6 +15,7 @@ p {
         margin-top: 0;
         margin-bottom: 1rem;
         color: $light;
+        color: $light-yellow;
     }
 
     h3.section-subheading {
@@ -24,6 +25,45 @@ p {
         font-family: $subheadings-font-family;
         margin-bottom: 4rem;
         color: $light;
+    }
+
+    h3 {
+        font-family: $headings-font-family;
+        color: $light;
+    }
+
+    h4 {
+        font-family: $headings-font-family;
+        color: $light;
+    }
+
+    p {
+        color: $light;
+    }
+
+    li {
+        color: $light;
+    }
+
+    div {
+        color: $light;
+    }
+
+    h5.card-title {
+        color: $dark-blue;
+    }
+
+    p.card-text {
+        color: $dark-blue;
+    }
+
+    a.btn.btn-primary {
+        color: $dark-blue;
+    }
+    
+    em {
+        color: $fair-blue;
+        font-style: normal;
     }
 }
 

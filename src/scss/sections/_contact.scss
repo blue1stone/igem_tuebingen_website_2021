@@ -1,6 +1,6 @@
 // Styling for the contact section
 section#contact {
-    background-color: $gray-900;
+    background-color: $dark-blue;
     background-image: url("../assets/img/map-image.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -20,6 +20,7 @@ section#contact {
 
             input.form-control {
                 height: auto;
+                color: $dark-blue;
             }
         }
 
@@ -44,25 +45,25 @@ section#contact {
         ::-webkit-input-placeholder {
             font-family: $headings-font-family;
             font-weight: $headings-font-weight;
-            color: $gray-400;
+            color: $gray-600;
         }
 
         :-moz-placeholder {
             font-family: $headings-font-family;
             font-weight: $headings-font-weight;
-            color: $gray-400;
+            color: $gray-600;
         }
 
         ::-moz-placeholder {
             font-family: $headings-font-family;
             font-weight: $headings-font-weight;
-            color: $gray-400;
+            color: $gray-600;
         }
 
         :-ms-input-placeholder {
             font-family: $headings-font-family;
             font-weight: $headings-font-weight;
-            color: $gray-400;
+            color: $gray-600;
         }
     }
 }
