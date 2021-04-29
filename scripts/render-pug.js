@@ -13,7 +13,9 @@ module.exports = function renderPug(filePath) {
     const html = pug.renderFile(filePath, {
         doctype: 'html',
         filename: filePath,
-        basedir: srcPath
+        basedir: srcPath,
+        sponsors_previous: fs.readdirSync("src/assets/img/logos/sponsors/previous"),
+        sponsors_current: fs.readdirSync("src/assets/img/logos/sponsors/current"),
     });
 
     const destPathDirname = upath.dirname(destPath);

@@ -1,16 +1,16 @@
 // Sponsors
-div.py-5.bg-dark
-    .container
-        .row.align-items-center
-            .col-md-3.col-sm-6.my-3
-                a(href='#!')
-                    img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/microsoft.svg', alt='...')
-            .col-md-3.col-sm-6.my-3
-                a(href='#!')
-                    img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/google.svg', alt='...')
-            .col-md-3.col-sm-6.my-3
-                a(href='#!')
-                    img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/facebook.svg', alt='...')
-            .col-md-3.col-sm-6.my-3
-                a(href='#!')
-                    img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/ibm.svg', alt='...')
+div.py-5.bg-dark.page-section
+    .container.text-center
+        h2.section-heading.text-uppercase Our Sponsors
+        h3.my-4 A big thank you to our sponsors!
+        .image-bg
+            .row.align-items-center
+                each sponsor in sponsors_current
+                    .col-md-3.col-sm-6.my-3
+                        img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/sponsors/current/' + sponsor, alt=sponsor)
+        h4.my-4 Sponsors 2020
+        .image-bg
+            .row.align-items-center
+                each sponsor in sponsors_previous
+                    .col-md-3.col-sm-6.my-3
+                        img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/sponsors/previous/' + sponsor, alt=sponsor)
