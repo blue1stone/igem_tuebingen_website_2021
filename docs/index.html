@@ -415,5 +415,14 @@
         <script src="assets/mail/contact_me.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script>
+            window.addEventListener(
+                'scroll',
+                () => {
+                    document.body.style.setProperty('--scroll', window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
+                },
+                false
+            );
+        </script>
     </body>
 </html>

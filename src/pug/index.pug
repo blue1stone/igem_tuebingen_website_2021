@@ -69,3 +69,7 @@ html(lang='en')
 
         // Core theme JS
         script(src='js/scripts.js')
+
+        script.
+            window.addEventListener('scroll', () => {document.body.style.setProperty('--scroll',window.pageYOffset / (document.body.offsetHeight - window.innerHeight));}, false);
+
