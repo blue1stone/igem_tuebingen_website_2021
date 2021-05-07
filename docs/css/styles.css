@@ -10060,6 +10060,9 @@ p {
 .page-section p {
   color: #f8f9fa;
 }
+.page-section p.past_projects {
+  text-align: justify;
+}
 .page-section li {
   color: #f8f9fa;
 }
