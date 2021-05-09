@@ -10063,6 +10063,39 @@ p {
 .page-section p.past_projects {
   text-align: justify;
 }
+.page-section .container_pastp {
+  position: relative;
+  width: 100%;
+}
+.page-section .image_pastp {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.page-section .overlay_pastp {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #ffffff;
+}
+.page-section .container_pastp:hover .overlay_pastp {
+  opacity: 1;
+}
+.page-section .text_pastp_hover {
+  color: black;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 .page-section li {
   color: #f8f9fa;
 }

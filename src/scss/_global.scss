@@ -57,9 +57,54 @@ p {
         color: $light;
     }
 
-    p.past_projects{
+// ab hier beginnt das past projects setup
+
+    p.past_projects {
         text-align: justify;
     }
+
+    .container_pastp {
+        position: relative;
+        width: 100%;
+    }
+
+    .image_pastp {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .overlay_pastp {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #ffffff;
+    }
+    
+    .container_pastp:hover .overlay_pastp { // die hover-funktion klappt nicht
+        opacity: 1;
+    }
+    
+
+    .text_pastp_hover { 
+        color: black;
+        font-size: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+// hier endet das past projects setup
 
     li {
         color: $light;
