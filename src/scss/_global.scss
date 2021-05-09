@@ -71,7 +71,7 @@ p {
     .image_pastp {
         display: block;
         width: 100%;
-        height: auto;
+        height: auto; // height: auto;
     }
 
     .overlay_pastp {
@@ -87,21 +87,21 @@ p {
         background-color: #ffffff;
     }
     
-    .container_pastp:hover .overlay_pastp { // die hover-funktion klappt nicht
+    .container_pastp:hover .overlay_pastp { 
         opacity: 1;
     }
     
 
     .text_pastp_hover { 
         color: black;
-        font-size: 10px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
+        font-size: 20px;
+        position: relative; // standard: absolute
+        top: 50%; // standard: 50%
+        left: 50%; // standard: 50%
         -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        text-align: center;
+        transform: translate(-50%, -50%); // standard: -50%, -50%
+        text-align: center; // standard: center
     }
 
 // hier endet das past projects setup
