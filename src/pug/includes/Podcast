@@ -1,43 +1,5 @@
 // podcast
 
-
- .row
-            h3.section-subheading.text-muted Team              
-            .col-lg-2
-                .team-member
-                     img.mx-auto.hexagon(src='assets/img/team/HannahVanSantvliet.jpg', alt='...')
-                     h4 Hannah Van Santvliet
-
-            .col-lg-2
-                .team-member 
-                    img.mx-auto.rounded-circle(src='assets/img/team/HannahVanSantvliet5kohneH.jpg', alt='...')
-                    h4 Kay Garland
-                    
-            .col-lg-2
-                .team-member 
-                    img.mx-auto.rounded-circle(src='assets/img/team/2.jpg', alt='...')
-                    h4 Larry Parker
-                    
-            .col-lg-2
-                .team-member 
-                    img.mx-auto.rounded-circle(src='assets/img/team/3.jpg', alt='...')
-                    h4 Diana Petersen
-                                
-            .col-lg-2
-                .team-member 
-                    img.mx-auto.rounded-circle(src='assets/img/team/3.jpg', alt='...')
-                    h4 Diana Petersen
-
-             .col-lg-2
-                .team-member 
-                    img.mx-auto.rounded-circle(src='assets/img/team/3.jpg', alt='...')
-                    h4 Diana Petersen
-
-
-            
-            
-
-       
                     
 
                    
