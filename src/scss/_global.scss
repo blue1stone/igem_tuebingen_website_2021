@@ -84,7 +84,7 @@ p {
         width: 100%;
         opacity: 0;
         transition: .5s ease;
-        background-color: $light-yellow; // weiß:  #ffffff
+        background-color: $dark-blue; // weiß:  #ffffff
     }
     
     .container_pastp:hover .overlay_pastp { 
@@ -93,7 +93,7 @@ p {
     
 
     .text_pastp_hover { 
-        color: black;
+        color: white;
         font-size: 20px;
         padding: 10px; // neu hinzugefügt
         position: relative; // standard: absolute
