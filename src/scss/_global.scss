@@ -84,7 +84,7 @@ p {
         width: 100%;
         opacity: 0;
         transition: .5s ease;
-        background-color: #ffffff;
+        background-color: $light-yellow; // weiß:  #ffffff
     }
     
     .container_pastp:hover .overlay_pastp { 
