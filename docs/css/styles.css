@@ -10089,13 +10089,13 @@ p {
 }
 .page-section .text_pastp_hover {
   color: white;
-  font-size: 20px;
+  font-size: 1.5rem;
   padding: 10px;
   position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: justify;
+  text-align: center;
 }
 .page-section .image_gallery {
   display: inline-block;
