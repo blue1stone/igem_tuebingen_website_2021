@@ -115,7 +115,7 @@ p {
         }
       }
 
-// hier endet das past projects setup
+// hier endet das past projects setup und beginnt das gallery setup
 
     .image_gallery {
         display: inline-block;
@@ -123,7 +123,16 @@ p {
         // width: 80rem;
         height: auto; 
 }
+    .container_gallery {
+        position: relative;
+        width: 100%;
+}
+    p.gallery {
+        text-align: center;
+    }
 
+
+// hier endet das gallery setup
     li {
         color: $light;
     }

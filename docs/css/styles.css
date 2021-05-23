@@ -10111,6 +10111,13 @@ p {
   padding: 10px 0px;
   height: auto;
 }
+.page-section .container_gallery {
+  position: relative;
+  width: 100%;
+}
+.page-section p.gallery {
+  text-align: center;
+}
 .page-section li {
   color: #f8f9fa;
 }
