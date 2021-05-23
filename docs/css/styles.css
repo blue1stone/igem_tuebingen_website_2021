@@ -10089,13 +10089,22 @@ p {
 }
 .page-section .text_pastp_hover {
   color: white;
-  font-size: 1.5rem;
   padding: 10px;
   position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+@media screen and (min-width: 771px) {
+  .page-section .text_pastp_hover {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .page-section .text_pastp_hover {
+    font-size: 16px;
+  }
 }
 .page-section .image_gallery {
   display: inline-block;
