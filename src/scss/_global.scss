@@ -107,6 +107,13 @@ p {
 
 // hier endet das past projects setup
 
+    .image_gallery {
+        display: inline-block;
+        padding: 10px 0px; // erster Wert (10px): top/bottom, zweiter Wert: (0px): left/right
+        // width: 80rem;
+        height: auto; 
+}
+
     li {
         color: $light;
     }

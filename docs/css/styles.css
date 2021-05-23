@@ -10097,6 +10097,11 @@ p {
   transform: translate(-50%, -50%);
   text-align: justify;
 }
+.page-section .image_gallery {
+  display: inline-block;
+  padding: 10px 0px;
+  height: auto;
+}
 .page-section li {
   color: #f8f9fa;
 }
@@ -10237,7 +10242,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  background-image: url("../assets/img/gallery/team_meeting_14.04.PNG");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
