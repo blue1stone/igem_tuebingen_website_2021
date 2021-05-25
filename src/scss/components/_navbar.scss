@@ -8,7 +8,7 @@
         padding: 0.75rem;
         font-family: $headings-font-family;
         font-size: 0.75rem;
-        color: $white;
+        color: $dark-blue;
         text-transform: uppercase;
         background-color: $primary;
         border: 0;
@@ -20,14 +20,21 @@
         font-weight: $headings-font-weight;
         letter-spacing: $headings-letter-spacing;
         text-transform: uppercase;
+        margin-left: 0.5rem;
 
         img {
             height: 3rem;
         }
     }
 
+    .navbar-container-custom {
+        width: 100%;
+        display: flex;
+    }
+
     .navbar-nav {
         .nav-item {
+            text-align: center;
             .nav-link {
                 font-family: $headings-font-family;
                 font-size: 0.95rem;
@@ -44,23 +51,30 @@
 }
 
 // Responsive styling for screen width equal to or greater than the large breakpoint
-@include media-breakpoint-up(lg) {
+@include media-breakpoint-up(xl) {
     #mainNav {
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
         border: none;
-        background-color: transparent;
-        transition: padding-top 0.3s ease-in-out,
-            padding-bottom 0.3s ease-in-out;
+        // background-color: transparent;
+        // transition: padding-top 0.3s ease-in-out,
+            // padding-bottom 0.3s ease-in-out;
 
         .navbar-brand {
             font-size: 1.5em;
             transition: font-size 0.3s ease-in-out;
+            margin-left: 0px;
 
             img {
                 height: 2rem;
                 transition: height 0.3s ease-in-out;
             }
+        }
+
+        .navbar-container-custom {
+            margin: auto;
+            display: flex;
+            width: fit-content;
         }
 
         // Styling for when the navbar shrinks on larger screens
@@ -79,12 +93,13 @@
             }
         }
 
-        .navbar-nav .nav-item {
-            margin-right: 1rem;
+        .navbar-nav {
+            flex-direction: row;
+        }
 
-            &:last-child {
-                margin-right: 0;
-            }
+        .navbar-nav .nav-item {
+            margin-left: 1rem;
+            display: inline;
         }
     }
 }
