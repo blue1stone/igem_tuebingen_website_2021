@@ -10273,7 +10273,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/gallery/team_meeting_14.04.PNG");
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../assets/img/gallery/team_meeting_14.04.PNG");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
