@@ -122,15 +122,9 @@ p {
         }
       }
     
-    @media screen and (max-width: 500px) and (min-width: 301px) {
+    @media screen and (max-width: 500px) {
         .text_pastp_hover {
-          font-size: 12px;
-        }
-      }
-
-    @media screen and (max-width: 300px) {
-        .text_pastp_hover {
-          font-size: 10px;
+          font-size: 10px; // standard 12px
         }
       }
 
