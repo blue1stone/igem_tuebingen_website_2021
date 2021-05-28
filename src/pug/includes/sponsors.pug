@@ -5,12 +5,30 @@ div.py-5.bg-dark.page-section
         h3.my-4 A big thank you to our sponsors!
         .image-bg.mr-1.ml-1
             .row.align-items-center
-                each sponsor in sponsors_current
-                    .col-md-3.col-sm-6.my-3
-                        img.img-fluid.d-block.mx-auto(src='assets/img/logos/sponsors/current/' + sponsor, alt=sponsor style='max-height: 6rem')
+                //- each sponsor in sponsors_current
+                //-     .col-md-3.col-sm-6.my-3
+                //-         img.img-fluid.d-block.mx-auto(src='assets/img/logos/sponsors/current/' + sponsor, alt=sponsor style='max-height: 6rem')
+                .col-md-4.col-6.my-3
+                    img.img-fluid.d-block.mx-auto(src='assets/img/logos/sponsors/current/af_designer_icn_txt_ls_dark.png', alt="Affinity Designer" style='max-height: 6rem')
+                .col-md-4.col-6.my-3
+                    img.img-fluid.d-block.mx-auto(src='assets/img/logos/sponsors/current/af_photo_icn_txt_ls_dark.png', alt="Affinity Photo" style='max-height: 6rem')
+                .col-md-4.col-6.my-3
+                    img.img-fluid.d-block.mx-auto(src='assets/img/logos/sponsors/current/af_publisher_icn_txt_ls_dark.png', alt="Affinity Publisher" style='max-height: 6rem')
+                .col-md-4.col-6.my-3
+                    img.img-fluid.d-block.mx-auto(src='assets/img/logos/sponsors/current/brand.png', alt="Brand" style='max-height: 6rem')
+                .col-md-4.col-6.my-3
+                    img.img-fluid.d-block.mx-auto(src='assets/img/logos/sponsors/current/greiner_bio_one.jpg', alt="Greiner Bio One" style='max-height: 6rem')
+                .col-md-4.col-6.my-3
+                    img.img-fluid.d-block.mx-auto(src='assets/img/logos/sponsors/current/promega.png', alt="Promega" style='max-height: 6rem')
+                .col-md-4.col-6.my-3
+                    img.img-fluid.d-block.mx-auto(src='assets/img/logos/sponsors/current/snapgene.png', alt="SnapGene" style='max-height: 6rem')
+                .col-md-4.col-6.my-3
+                    img.img-fluid.d-block.mx-auto(src='assets/img/logos/sponsors/current/stura.png', alt="StuRa" style='max-height: 6rem')
+                .col-md-4.col-6.my-3
+                    img.img-fluid.d-block.mx-auto(src='assets/img/logos/sponsors/current/toggl_plan.png', alt="Toggl Plan" style='max-height: 6rem')
         h3.my-4 Sponsors 2020
         .image-bg.mr-1.ml-1
             .row.align-items-center
                 each sponsor in sponsors_previous
-                    .col-md-3.col-sm-6.my-3
+                    .col-md-3.col-6.my-3
                         img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/sponsors/previous/' + sponsor, alt=sponsor)
