@@ -1,28 +1,48 @@
 // Navigation
-nav#mainNav.navbar.navbar-expand-lg.navbar-dark.fixed-top(style="padding-top: 8px; padding-bottom: 8px")
-    .container
-        a.navbar-brand.js-scroll-trigger(href='#page-top')
-            img(src='assets/img/iGEM_Tue_Logo_Website.svg', alt='Logo' style="height: 5rem")
-        button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation').text-dark
-            | Menu
-            i.fas.fa-bars.ml-1
-        #navbarResponsive.collapse.navbar-collapse
-            ul.navbar-nav.text-uppercase.ml-auto
-                li.nav-item
-                    a.nav-link.js-scroll-trigger(href='#news') News
-                li.nav-item
-                    a.nav-link.js-scroll-trigger(href='#synbio-and-igem') iGEM
-                li.nav-item
-                    a.nav-link.js-scroll-trigger(href='#project') Project
-                li.nav-item
-                    a.nav-link.js-scroll-trigger(href='#gallery') Gallery
-                li.nav-item
-                    a.nav-link.js-scroll-trigger(href='#team') Team
-                li.nav-item
-                    a.nav-link.js-scroll-trigger(href='#collaborations') Collaborations
-                li.nav-item
-                    a.nav-link.js-scroll-trigger(href='#past-projects').text-nowrap Past Projects
-                li.nav-item
-                    a.nav-link.js-scroll-trigger(href='#sponsorship') Sponsorship
-                li.nav-item
-                    a.nav-link.js-scroll-trigger(href='#contact') Contact
+nav#mainNav.navbar.navbar-dark.fixed-top(style="padding-top: 4px; padding-bottom: 4px; padding-right: 4px; padding-left: 4px")
+    .navbar-container-custom
+        a.navbar-brand.js-scroll-trigger(href='#page-top' style='margin-right: 8px')
+            img(src='assets/img/iGEM_Tue_Logo_Website.svg', alt='Logo' style="height: 4rem")
+        ul.navbar-nav.text-uppercase.ml-auto.d-none.d-xl-flex.mt-auto.mb-auto
+            li.nav-item
+                a.nav-link.js-scroll-trigger(href='#news') News
+            li.nav-item
+                a.nav-link.js-scroll-trigger(href='#synbio-and-igem') iGEM
+            li.nav-item
+                a.nav-link.js-scroll-trigger(href='#project') Project
+            li.nav-item
+                a.nav-link.js-scroll-trigger(href='#gallery') Gallery
+            li.nav-item
+                a.nav-link.js-scroll-trigger(href='#team') Team
+            li.nav-item
+                a.nav-link.js-scroll-trigger(href='#collaborations') Collaborations
+            li.nav-item
+                a.nav-link.js-scroll-trigger(href='#past-projects').text-nowrap Past Projects
+            li.nav-item
+                a.nav-link.js-scroll-trigger(href='#sponsorship') Sponsorship
+            li.nav-item
+                a.nav-link.js-scroll-trigger(href='#contact') Contact
+        .ml-auto.mt-auto.mb-auto.mr-3.d-xl-none
+            button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+                | Navigation
+                i.fas.fa-bars.ml-1
+    #navbarResponsive.d-xl-none.collapse.navbar-collapse
+        ul.navbar-nav.text-uppercase.ml-auto
+            li.nav-item
+                a.nav-link.js-scroll-trigger(href='#news') News
+            li.nav-item
+                a.nav-link.js-scroll-trigger(href='#synbio-and-igem') iGEM
+            li.nav-item
+                a.nav-link.js-scroll-trigger(href='#project') Project
+            li.nav-item
+                a.nav-link.js-scroll-trigger(href='#gallery') Gallery
+            li.nav-item
+                a.nav-link.js-scroll-trigger(href='#team') Team
+            li.nav-item
+                a.nav-link.js-scroll-trigger(href='#collaborations') Collaborations
+            li.nav-item
+                a.nav-link.js-scroll-trigger(href='#past-projects').text-nowrap Past Projects
+            li.nav-item
+                a.nav-link.js-scroll-trigger(href='#sponsorship') Sponsorship
+            li.nav-item
+                a.nav-link.js-scroll-trigger(href='#contact') Contact

@@ -4,7 +4,7 @@ header.masthead {
     padding-bottom: 6rem;
     text-align: center;
     color: $white;
-    background-image: url("../assets/img/gallery/team_meeting_14.04.PNG"); // Standard:  url("../assets/img/header-bg.jpg")
+    background: linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55) ), url("../assets/img/gallery/team_meeting_14.04.PNG"); // Standard:  url("../assets/img/header-bg.jpg")
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
