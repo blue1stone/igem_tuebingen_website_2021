@@ -18,9 +18,10 @@
                 target :
                 $("[name=" + this.hash.slice(1) + "]");
             if (target.length) {
+                var offset = (window.matchMedia("(min-width: 992px)").matches) ? 20 : 380;
                 anime({
                     targets: 'html, body',
-                    scrollTop: target.offset().top - 72,
+                    scrollTop: target.offset().top - offset,
                     duration: 1000,
                     easing: 'easeInOutExpo'
                 });
