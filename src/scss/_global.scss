@@ -122,9 +122,21 @@ p {
         }
       }
     
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 500px) and (min-width: 441px) {
         .text_pastp_hover {
-          font-size: 10px; // standard 12px
+          font-size: 11px;
+        }
+      }
+
+    @media screen and (max-width: 440px) and (min-width: 371px) {
+        .text_pastp_hover {
+          font-size: 10px;
+        }
+      }
+
+    @media screen and (max-width: 370px) {
+        .text_pastp_hover {
+          font-size: 9px; // standard 12px
         }
       }
 

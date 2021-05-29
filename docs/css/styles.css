@@ -10111,9 +10111,19 @@ p {
     font-size: 14px;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) and (min-width: 441px) {
+  .page-section .text_pastp_hover {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 440px) and (min-width: 371px) {
   .page-section .text_pastp_hover {
     font-size: 10px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .page-section .text_pastp_hover {
+    font-size: 9px;
   }
 }
 .page-section .image_gallery {
