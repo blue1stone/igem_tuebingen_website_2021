@@ -18,7 +18,7 @@
                 target :
                 $("[name=" + this.hash.slice(1) + "]");
             if (target.length) {
-                var offset = (window.matchMedia("(min-width: 992px)").matches) ? 20 : 380;
+                var offset = (window.matchMedia("(min-width: 992px)").matches) ? 20 : 350;
                 anime({
                     targets: 'html, body',
                     scrollTop: target.offset().top - offset,
