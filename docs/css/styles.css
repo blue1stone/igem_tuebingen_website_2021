@@ -10061,7 +10061,7 @@ p {
   color: #f8f9fa;
 }
 .page-section p.past_projects {
-  text-align: justify;
+  text-align: center;
 }
 .page-section .container_pastp {
   position: relative;
@@ -10118,22 +10118,22 @@ p {
 }
 @media screen and (max-width: 770px) and (min-width: 551px) {
   .page-section .text_pastp_hover {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
 @media screen and (max-width: 550px) and (min-width: 501px) {
   .page-section .text_pastp_hover {
-    font-size: 14px;
+    font-size: 13px;
   }
 }
 @media screen and (max-width: 500px) and (min-width: 441px) {
   .page-section .text_pastp_hover {
-    font-size: 11px;
+    font-size: 10px;
   }
 }
 @media screen and (max-width: 440px) and (min-width: 371px) {
   .page-section .text_pastp_hover {
-    font-size: 10px;
+    font-size: 9px;
   }
 }
 @media screen and (max-width: 370px) {
