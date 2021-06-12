@@ -802,59 +802,32 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-lg-4 col-6 mb-1">
                         <div class="container_gallery">
-                            <img class="img-fluid image_gallery" src="assets/img/gallery/group_fun_2_crop.jpg" alt="group fun 1" />
+                            <img class="lightense img-fluid image_gallery" src="assets/img/gallery/group_fun_2_crop.jpg" alt="group fun 1" />
                             <p class="gallery">Having fun while doing our photo shoot</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-lg-4 col-6 mb-1">
                         <div class="container_gallery">
-                            <img class="img-fluid image_gallery" src="assets/img/gallery/Inga Neckarfront.jpeg" alt="Inga Neckarfront" />
+                            <img class="lightense img-fluid image_gallery" src="assets/img/gallery/Inga Neckarfront.jpeg" alt="Inga Neckarfront" />
                             <p class="gallery">Tübingen's beautiful historic city center</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-lg-4 col-6 mb-1">
                         <div class="container_gallery">
-                            <img class="img-fluid image_gallery" src="assets/img/gallery/Julius with Morgenstelle.jpg" alt="Julius with Morgenstelle" />
+                            <img class="lightense img-fluid image_gallery" src="assets/img/gallery/Julius with Morgenstelle.jpg" alt="Julius with Morgenstelle" />
                             <p class="gallery">The Morgenstelle, home of the natural sciences in Tübingen</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-lg-4 col-6 mb-1">
                         <div class="container_gallery">
-                            <img class="img-fluid image_gallery" src="assets/img/gallery/Lab-space_empty.jpg" alt="lab space empty" />
+                            <img class="lightense img-fluid image_gallery" src="assets/img/gallery/Lab-space_empty.jpg" alt="lab space empty" />
                             <p class="gallery">Where the magic will happen: Our lab space</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-lg-4 col-6 mb-1">
                         <div class="container_gallery">
-                            <img class="img-fluid image_gallery" src="assets/img/gallery/HannahWithFahrradKönig_crop.jpg" alt="Hannah Fahrrad" />
+                            <img class="lightense img-fluid image_gallery" src="assets/img/gallery/HannahWithFahrradKönig_crop.jpg" alt="Hannah Fahrrad" />
                             <p class="gallery">If you want to discover Tübingen, you need to go by bike</p>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="slideshow-container">
-                            <div class="mySlides fade">
-                                <div class="numbertext">1 / 3</div>
-                                <img src="assets/img/gallery/group_fun_2_crop.jpg" style="width: 100%" />
-                                <div class="text">Caption Text</div>
-                            </div>
-                            <div class="mySlides fade">
-                                <div class="numbertext">2 / 3</div>
-                                <img src="assets/img/gallery/Inga Neckarfront.jpeg" style="width: 100%" />
-                                <div class="text">Caption Two</div>
-                            </div>
-                            <div class="mySlides fade">
-                                <div class="numbertext">3 / 3</div>
-                                <img src="assets/img/gallery/Julius with Morgenstelle.jpg" style="width: 100%" />
-                                <div class="text">Caption Three</div>
-                            </div>
-                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                        </div>
-                        <br />
-                        <div style="text-align: center">
-                            <span class="dot" onclick="currentSlide(1)"></span>
-                            <span class="dot" onclick="currentSlide(2)"></span>
-                            <span class="dot" onclick="currentSlide(3)"></span>
                         </div>
                     </div>
                 </div>
@@ -1142,11 +1115,21 @@
         <script src="assets/mail/contact_me.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <!-- Lightense Image Zoom-->
+        <script src="js/lightense.js"></script>
         <script>
             window.addEventListener(
                 'scroll',
                 () => {
                     document.body.style.setProperty('--scroll', window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
+                },
+                false
+            );
+            window.addEventListener(
+                'load',
+                function () {
+                    var el = document.querySelectorAll('img.lightense');
+                    Lightense(el, { background: 'rgba(0, 0, 0, 0)' });
                 },
                 false
             );

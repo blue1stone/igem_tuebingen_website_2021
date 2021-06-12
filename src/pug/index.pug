@@ -72,6 +72,13 @@ html(lang='en')
         // Core theme JS
         script(src='js/scripts.js')
 
+        // Lightense Image Zoom
+        script(src='js/lightense.js')
+
         script.
             window.addEventListener('scroll', () => {document.body.style.setProperty('--scroll',window.pageYOffset / (document.body.offsetHeight - window.innerHeight));}, false);
+            window.addEventListener('load', function () {
+                var el = document.querySelectorAll('img.lightense');
+                Lightense(el, {background: 'rgba(0, 0, 0, 0)'});
+            }, false);
 
